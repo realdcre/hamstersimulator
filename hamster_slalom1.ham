@@ -1,0 +1,46 @@
+/*imperative program*/public void r(){
+		linksUm(); 
+		linksUm(); 
+		linksUm();
+	}
+	public void l(){
+		linksUm();
+	}
+	public void f(){
+		vor();
+	}
+	public void df(){
+		f();
+		f();
+	}
+
+void main() {
+int myNum = 0;
+
+	r();
+	f();
+	l();
+	df();
+	l();
+	df();
+	r();
+	df();
+	r();
+	df();
+	l();
+	df();
+	l();
+	df();
+	r();
+	df();
+	r();
+	f();
+	for (int i = 0; i < 1024; i++) {
+     nimm();
+     myNum = myNum + 1;
+    }  
+  	if 
+	}
+	
+	
+	

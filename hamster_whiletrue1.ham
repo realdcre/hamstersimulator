@@ -1,0 +1,5 @@
+/*imperative program*/void main() {
+    while (true) {
+    	nimm();
+    	}
+}

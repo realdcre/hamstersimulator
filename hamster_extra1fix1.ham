@@ -1,0 +1,45 @@
+/*imperative program*/// this program works on the HAMSTER-SIMULATOR level called "hamster_extra1"
+
+
+
+public void turn_right(){
+	linksUm();
+	linksUm();
+	linksUm();
+// used to turn the hamster to the right
+	}
+public void onepeek(){
+	linksUm();
+	vor();
+	turn_right();
+	vor();
+	vor();
+	turn_right();
+	vor();
+	
+// used to clear one peak of the level
+	}
+public void oneside(){
+	nimm();
+	onepeek();
+	nimm();
+	linksUm();
+	onepeek();
+// used to clear one side of the level
+	}
+	
+public void init(){
+	vor();
+	turn_right();
+	vor();
+	linksUm();
+// used to prepare the hamster to use oneside
+	}
+
+void main() {
+    init();
+    oneside();
+    oneside();
+    oneside();
+    oneside();
+}

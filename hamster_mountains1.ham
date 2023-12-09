@@ -1,0 +1,47 @@
+/*imperative program*/public void r(){
+		linksUm(); 
+		linksUm(); 
+		linksUm();
+	}
+public void l(){
+	linksUm();
+	}
+public void f(){
+	vor();
+	}
+
+public void half_up(){
+	l();
+	f();
+	r();
+	f();
+	}
+public void half_down() {
+	r();
+	f();
+	l();
+	f();
+	}
+public void up(){
+	half_up();
+	half_up();
+	half_up();
+}
+public void down(){
+	half_down();
+	half_down();
+	half_down();
+	}
+public void hill(){
+	up();
+	f();
+	down();
+	vor();
+	}
+void main(){
+	hill();
+	hill();
+	hill();
+	hill();
+	hill();
+}

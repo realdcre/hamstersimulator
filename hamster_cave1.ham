@@ -1,0 +1,25 @@
+/*imperative program*/
+
+public void go(){
+	while (vornFrei()){
+		vor();
+	}
+	linksUm();
+	linksUm();
+}
+
+public void oneRun(){
+	
+	nimm();
+	go();
+	gib();
+	go();
+}
+
+void main() {
+   go();
+   while (kornDa()){
+   	oneRun();
+	}
+	go();
+}
