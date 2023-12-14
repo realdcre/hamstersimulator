@@ -1,0 +1,52 @@
+/*imperative program*/void rechtsUm(){
+	linksUm();
+	linksUm();
+	linksUm();
+}
+void prüfen(){
+	if (!kornDa()) {
+		 gib();
+		 gib();
+		 gib();
+		 gib();
+		 gib();
+		 gib();
+		 gib();
+		 gib();
+		 gib();
+		 gib();
+		 gib();
+		 gib();
+		}
+	else {
+	nimm();	
+	}
+}
+void reihe(){
+	while (vornFrei()) {
+		vor();
+		prüfen();
+	}
+}
+void nachOben() {
+	while (vornFrei()) {
+		vor();
+		prüfen();
+		linksUm();
+		reihe();
+		rechtsUm();
+		if (vornFrei()) {
+			vor();
+			prüfen();
+			rechtsUm();
+			reihe();
+			linksUm();
+		}
+	}
+}
+void main(){
+	prüfen();
+	reihe();
+	linksUm();
+	nachOben();
+}

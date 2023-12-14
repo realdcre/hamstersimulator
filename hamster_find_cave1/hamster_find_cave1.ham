@@ -1,0 +1,30 @@
+/*imperative program*/
+
+public void turnRight(){
+    linksUm();
+    linksUm();
+    linksUm();
+}
+
+
+boolean notRightBlocked(){
+    turnRight();
+    if (vornFrei()){
+        linksUm();
+        return true;
+    } else {
+    	linksUm();
+        return false;
+    }
+
+}
+
+void main(){
+    while (!notRightBlocked()){
+        vor();
+    }
+    turnRight();
+    while (vornFrei()){
+        vor();
+    }
+}
