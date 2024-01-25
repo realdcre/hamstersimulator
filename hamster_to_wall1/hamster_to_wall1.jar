@@ -13,9 +13,17 @@ public void main(){
             while (kornDa()){
                 nimm();
                 cornAmount = cornAmount + 1;
-                if (isEven )
+                if (isEven == true){
+                    isEven = false;
+                } else {
+                    isEven = true;
+                }
 
             }
         }
     }
+    if (isEven == true)
+        while (!cornAmount == 0 )
+            gib();
+            cornAmount = cornAmount - 1;
 }
