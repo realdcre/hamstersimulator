@@ -2,8 +2,7 @@ boolean isEven = false;
 int cornAmount = 0
 
 public void calcOddity(){
-    public static boolean isOdd(int i) {
-   return i % 2 != 0;
+    cornAmount
 }
 }
 
@@ -14,6 +13,8 @@ public void main(){
             while (kornDa()){
                 nimm();
                 cornAmount = cornAmount + 1;
+                if (isEven )
+
             }
         }
     }
