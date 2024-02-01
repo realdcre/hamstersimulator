@@ -18,10 +18,11 @@ public void pickup(){
     }
 }
 public void dropoff(){
-    stepAmount = stepAmount * 2
-    pickupAmount = pickupAmount - stepAmount
-    while(pickupAmount > 0) {
+    stepAmount = stepAmount * 2;
+    pickupAmount = pickupAmount - stepAmount;
+    while(pickupAmount > 1) {
         gib();
+        pickupAmount = pickupAmount - 1
     }
 }
 public void main(){
