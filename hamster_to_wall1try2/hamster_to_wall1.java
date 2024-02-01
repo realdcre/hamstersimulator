@@ -1,8 +1,8 @@
-boolean cornAmountEven = true
+boolean cornAmountEven = true;
 
-public void main() {
-    while (vornFrei){
-        if (kornDa) {
+void main() {
+    while (vornFrei()){
+        if (kornDa()) {
             nimm();
             if (cornAmountEven == true){
                 cornAmountEven = false;
@@ -11,5 +11,15 @@ public void main() {
             }
         }
         vor();
+        
     }
+    if (kornDa()) {
+        nimm();
+        if (cornAmountEven == true){
+                cornAmountEven = false;
+            } else if (cornAmountEven == false){
+                cornAmountEven = true;
+            }
+           }
+   
 }
