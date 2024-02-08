@@ -17,7 +17,6 @@ public void pickup(){
     }
 }
 public void dropoff(){
-    stepAmount = stepAmount * 2;
     pickupAmount = pickupAmount - stepAmount;
     while(pickupAmount > 1) {
         gib();
