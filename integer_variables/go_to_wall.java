@@ -8,7 +8,6 @@ public void goToWall() {
         stepAmount = stepAmount + 1;
     }
     //A1//
-
 }
 public void pickup(){
     
@@ -32,6 +31,4 @@ public void main(){
     linksUm();
     goToWall();
     dropoff();
-}
-
-    
+}  
