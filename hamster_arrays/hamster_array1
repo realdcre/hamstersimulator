@@ -1,7 +1,7 @@
 String[] playernames = new int[10];
-playernames[1] = "Anja";
-playernames[5] = "Finn";
-playernames[8] = "Maike";
+playernames[0] = "Anja";
+playernames[4] = "Finn";
+playernames[7] = "Maike";
 public void print(String name){
     System.out.println(name);
 }
