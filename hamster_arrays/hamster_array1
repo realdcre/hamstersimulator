@@ -1,4 +1,11 @@
 String[] playernames = new int[10];
-"Anja" = playernames[1]
-"Finn" = playernames[5]
-"Maike" = playernames[8]
+playernames[1] = "Anja";
+playernames[5] = "Finn";
+playernames[8] = "Maike";
+public void print(String name){
+    System.out.println(name);
+}
+
+void main(){
+    print(playernames[5]);
+}
