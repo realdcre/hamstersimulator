@@ -37,7 +37,7 @@ int walkToNextCorn(){
     linksUm();
     linksUm();
     multipleStep(cornAmount);
-    return cornAmount;
+    return cornAmount; 
    
 }
 
