@@ -7,8 +7,8 @@ int rand(int min, int max) {
 void main(){
     int[][] image = new int [8][10];
 
-    for(int i=0; i<8){
-        for(int j=0; j<10){
+    for(int i=0; i<8; i++){
+        for(int j=0; j<10; j++){
             image[i][j] = 0;
         }
     }
@@ -23,8 +23,8 @@ void main(){
 }
 
 void printTypeHamster(int[][] image){
-     for(int i=0; i<8){
-        for(int j=0; j<10){
+     for(int i=0; i<8; i++){
+        for(int j=0; j<10; j++){
             if (image[i][j] == 1){
                 gib();
             }
