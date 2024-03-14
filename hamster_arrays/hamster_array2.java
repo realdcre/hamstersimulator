@@ -19,12 +19,12 @@ public int mathargmax(int arraysize, int[] playerscores){
 
 }
 
-public int mathaverage(int arraysize, int[] playerscores){
+public float mathaverage(int arraysize, int[] playerscores){
     int currentsum = 0;
     for (int i = 0; i < arraysize; i++){
         currentsum = currentsum + playerscores[i];
     }
-    int average = currentsum / arraysize;
+    float average = currentsum / arraysize;
     return average;
 }
 void main(){
